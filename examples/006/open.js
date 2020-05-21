@@ -22,3 +22,9 @@ if (osPlatform === WINDOWS_PLATFORM) {
 
 console.log(`executing command ${command}`);
 exec(command);
+
+/* This script could be extended to support other platforms if necessary. It could be
+useful for opening URLs once you have committed your work and pushed to
+GitHub for example.The tool could provide you with the pull request link and
+ask if you want to open your browser to see the file changes before merging your
+pull request. */
