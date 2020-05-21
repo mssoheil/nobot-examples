@@ -1,15 +1,20 @@
 {
-  "extends": "airbnb",
-  "rules": {
-    "no-console": 0,
-    "linebreak-style": ["error", "unix"],
-    "no-use-before-define": ["off"],
-    "comma-dangle": ["error", "never"],
-    "global-require": ["off"],
-    "import/no-dynamic-require": ["off"]
-  },
-  "env": {
-    "browser": false,
-    "node": true
-  }
+	"extends": "airbnb",
+	"rules": {
+		"no-console": 0,
+		"quotes": ["error", "double"],
+		"no-tabs": ["off"],
+		"indent": ["error", "tab"],
+		"object-curly-newline": ["off"],
+		"function-paren-newline": ["off"],
+		"linebreak-style": ["error", "windows"],
+		"no-use-before-define": ["off"],
+		"comma-dangle": ["error", "never"],
+		"global-require": ["off"],
+		"import/no-dynamic-require": ["off"]
+	},
+	"env": {
+		"browser": false,
+		"node": true
+	}
 }
