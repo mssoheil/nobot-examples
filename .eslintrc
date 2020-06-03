@@ -2,9 +2,9 @@
 	"extends": "airbnb",
 	"rules": {
 		"no-console": 0,
-		"quotes": ["error", "double"],
+		"quotes": ["off"],
 		"no-tabs": ["off"],
-		"indent": ["error", "tab"],
+		"indent": ["off"],
 		"object-curly-newline": ["off"],
 		"function-paren-newline": ["off"],
 		"linebreak-style": ["error", "windows"],
